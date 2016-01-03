@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title class="lzTitle">LangZilla|English</title>
+	<meta name="description" content="Free translate plugin LangZilla by WebSofter | websofter.ru">
+	<meta name="author" content="www.websofter.ru">
+	
+    <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+  ================================================== -->
+  	<link rel="stylesheet" href="css/zerogrid.css">
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+	
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+		<script src="js/css3-mediaqueries.js"></script>
+	<![endif]-->
+	
+    <link rel="icon" type="image/png" href='./images/favicon.png' />
+    <script src="../js/jquery-2.1.4.min.js"></script>
+    <script src="../src/langzilla-1.1.0.js"></script>
+    <script>
+        jQuery(function(){
+            $("body").createLang({
+                locals:{
+                    "en-US":"../src/images/en.png",
+                    "ru-RU":"../src/images/ru.png"
+                },
+                locPath: "../src/loc/",
+                callBack:function(langCode){
+                    //alert(langCode);
+                    //Write here your call back code...
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+<!--------------Header--------------->
+<header>
+	<div class="wrap-header zerogrid">
+		<div id="logo"><a href="#"><img src="./images/logo.png"/></a></div>
+		<nav>
+			<div class="wrap-nav">
+				<div class="menu">
+					<ul>
+                                                <li><a class="" href="http://websofter.ru/">WebSofter</a></li>
+						<li><a class="lzMenuHome" href="index.html">Home</a></li>
+						<li><a class="lzMenuBlog" href="http://blog.websofter.ru/">Blog</a></li>
+						<li><a class="lzMenuAbout" href="#">About</a></li>
+						<li><a class="lzMenuDownload" href="files/langzilla.zip">Download</a></li>
+						<!--<li><a class="lzMenuOnGithub" href="https://github.com/WebSofter/LangZilla">On GitHub</a></li>-->
+					</ul>
+				</div>
+				
+				<div class="minimenu"><div>MENU</div>
+					<select onchange="location=this.value">
+						<option></option>
+                                                <option class="" value="http://websofter.ru/">WebSofter</option>
+						<option class="lzMenuHome" value="index.html">Home</option>
+						<option class="lzMenuBlog" value="http://blog.websofter.ru/">Blog</option>
+						<option class="lzMenuAbout" value="#">About</option>
+						<option class="lzMenuDownload" value="files/langzilla.zip">Download</option>
+                        <!--<option class="lzMenuOnGithub" value="https://github.com/WebSofter/LangZilla">On GitHub</option>-->
+					</select>
+				</div>
+			</div>
+		</nav>
+	</div>
+</header>
+
+<!--------------Content--------------->
+<section id="content">
+	<div class="wrap-content zerogrid">
+		<div class="row block">
+			<div id="main-content" class="col-2-3">
+				<div class="wrap-col">
+                                        <div style="display: inline-block;">
+                                            <article>
+                                                    <div class="heading">
+                                                            <h2><a href="doc-ru.html">Documentation(Ru)</a></h2>
+                                                            <div class="info">By Admin on December 01, 2012 with <a href="#">01 Commnets</a></div>
+                                                    </div>
+                                                    <div class="content">
+                                                            <img class="post-image"  src="images/langzilla-post.png"/>
+                                                            <p>Каждому разработчику сайта приходилось иметь дело с локализацией сайта, 
+                                                            чтобы каждый пользователь, когда заходит на страницу, сайт автоматически перенаправлял 
+                                                            его на ту версию языка, на котором привык общаться клиент. Есть много способов это 
+                                                            сделать...</p>
+                                                            <p class="more"><a class="button lzHeadReadMore" href="doc-ru.html">Read more</a></p>
+                                                    </div>
+                                            </article>
+                                            <article>
+                                                    <div class="heading">
+                                                            <h2><a href="doc-en.html">Documentation(En)</a></h2>
+                                                            <div class="info">By Admin on December 01, 2012 with <a href="#">01 Commnets</a></div>
+                                                    </div>
+                                                    <div class="content">
+                                                            <img class="post-image" src="images/langzilla-post.png"/>
+                                                            <p>Each site developer had to deal with the localization of the site
+                                                             to each user when it comes to the page site automatically redirects
+                                                             it to the version of the language that was used to communicate the client. There are many ways this
+                                                             do...</p>
+                                                            <p class="more"><a class="button lzHeadReadMore" href="doc-en.html">Read more</a></p>
+                                                    </div>
+                                            </article>
+                                        </div>
+					<div style="">
+                                            <ul id="pagi">
+                                                    <li><a class="current" href="#">1</a></li>
+                                                    <li><a href="#">2</a></li>
+                                                    <li><a href="#">3</a></li>
+                                                    <li><a href="#">4</a></li>
+                                                    <li><a class="lzHeadNext" href="#">next</a></li>
+                                            </ul>
+                                        </div>
+					
+				</div>
+			</div>
+			<div id="sidebar" class="col-1-3">
+				<div class="wrap-col">
+					<div class="box">
+						<div class="heading"><h2 class="lzMenuAbout">About us</h2></div>
+						<div class="content">
+							<a href="http://www.websofter.ru" target="_blank"><img class="lzImageEnRU" src="images/langzilla-en.png" style="border:none;"/></a>
+							<p class="lzTextAboutPrepend lzTextAboutAppend"><a href="http://www.websofter.ru" target="_blank" style="color: #DA251D;">WebSofter</a>.</p>
+						</div>
+					</div>
+					<div class="box">
+						<div class="heading"><h2 class="lzHeaderCategories">Categories</h2></div>
+						<div class="content">
+							<ul>
+								<li><a class="lzMenuItem1" href="http://www.websofter.ru">We develop for WEB and Design</a></li>
+								<li><a class="lzMenuItem2" href="http://www.websofter.ru">We develop for Phones</a></li>
+								<li><a class="lzMenuItem3" href="http://www.websofter.ru">We develop for PC</a></li>
+                                                                <li><a class="lzMenuItem4" href="http://www.websofter.ru">We develop for Microelectronic</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="box">
+                                            <div class="heading"><h2 class="lzHeaderPopularPost">Popular Post</h2></div>
+						<div class="content">
+							<div class="post">
+								<img src="images/50x50.jpg"/>
+								<h4><a href="#">Lorem ipsum dolor sit amet</a></h4>
+								<p>November 11 ,2012</p>
+							</div>
+							<div class="post">
+								<img src="images/50x50.jpg"/>
+								<h4><a href="#">Lorem ipsum dolor sit amet</a></h4>
+								<p>November 11 ,2012</p>
+							</div>
+							<div class="post">
+								<img src="images/50x50.jpg"/>
+								<h4><a href="#">Lorem ipsum dolor sit amet</a></h4>
+								<p>November 11 ,2012</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--------------Footer--------------->
+<footer>
+	<div class="wrap-footer zerogrid">
+		<div class="row">
+			<div class="col-1-3">
+				<div class="wrap-col">
+					<div class="box">
+						<div class="heading"><h2 class="lzHeadDef">Text Heading</h2></div>
+						<div class="content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor. Sed accumsan libero quis mi commodo et suscipit enim lacinia. Morbi rutrum vulputate est sed faucibus. </p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-2-3">
+				<div class="wrap-col">
+					<div class="box">
+						<div class="heading"><h2 class="lzHeadDef">Text Heading</h2></div>
+						<div class="content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor. Sed accumsan libero quis mi commodo et suscipit enim lacinia. Morbi rutrum vulputate est sed faucibus. Nulla sed nisl mauris, id tristique tortor. Sed iaculis dapibus urna nec dictum. Proin non enim odio. Proin vitae turpis libero, eget feugiat enim. Sed fringilla facilisis convallis.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="copyright">
+		<p>Copyright © 2015 - <a href="http://www.websofter.ru" target="_blank">Project LangZilla</a> by websofter.ru</p>
+	</div>
+</footer>
+
+</body></html>

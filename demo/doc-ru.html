@@ -1,0 +1,355 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title class="lzTitle">LangZilla|English</title>
+	<meta name="description" content="Free translate plugin LangZilla by WebSofter | websofter.ru">
+	<meta name="author" content="www.websofter.ru">
+	
+    <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+  ================================================== -->
+  	<link rel="stylesheet" href="css/zerogrid.css">
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+	
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+		<script src="js/css3-mediaqueries.js"></script>
+	<![endif]-->
+	
+    <link rel="icon" type="image/png" href='./images/favicon.png' />
+    <script src="../js/jquery-2.1.4.min.js"></script>
+    <script src="../src/langzilla-1.1.0.js"></script>
+    <script>
+        jQuery(function(){
+            $("body").createLang({
+                locals:{
+                    "en-US":"../src/images/en.png",
+                    "ru-RU":"../src/images/ru.png"
+                },
+                locPath: "../src/loc/",
+                callBack:function(langCode){
+                    //alert(langCode);
+                    //Write here your call back code...
+                }
+            });
+        });
+    </script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+<!--------------Header--------------->
+<header>
+	<div class="wrap-header zerogrid">
+		<div id="logo"><a href="#"><img src="./images/logo.png"/></a></div>
+		<nav>
+			<div class="wrap-nav">
+				<div class="menu">
+					<ul>
+                                                <li><a class="" href="http://websofter.ru/">WebSofter</a></li>
+						<li><a class="lzMenuHome" href="index.html">Home</a></li>
+						<li><a class="lzMenuBlog" href="http://blog.websofter.ru/">Blog</a></li>
+						<li><a class="lzMenuAbout" href="#">About</a></li>
+						<li><a class="lzMenuDownload" href="files/langzilla.zip">Download</a></li>
+						<!--<li><a class="lzMenuOnGithub" href="https://github.com/WebSofter/LangZilla">On GitHub</a></li>-->
+					</ul>
+				</div>
+				
+				<div class="minimenu"><div>MENU</div>
+					<select onchange="location=this.value">
+						<option></option>
+                                                <option class="" value="http://websofter.ru/">WebSofter</option>
+						<option class="lzMenuHome" value="index.html">Home</option>
+						<option class="lzMenuBlog" value="http://blog.websofter.ru/">Blog</option>
+						<option class="lzMenuAbout" value="#">About</option>
+						<option class="lzMenuDownload" value="files/langzilla.zip">Download</option>
+                        <!--<option class="lzMenuOnGithub" value="https://github.com/WebSofter/LangZilla">On GitHub</option>-->
+					</select>
+				</div>
+			</div>
+		</nav>
+	</div>
+</header>
+
+<!--------------Content--------------->
+<section id="content">
+	<div class="wrap-content zerogrid">
+		<div class="row block">
+			<div id="main-content" class="col-2-3">
+				<div class="wrap-col">
+					<article>
+						<div class="heading">
+							<h2><a href="#">Documentation(Ru)</a></h2>
+							<div class="info">By Admin on December 01, 2012 with <a href="#">01 Commnets</a></div>
+						</div>
+						<div class="content">
+							<!-- *******************************************POST************************************ -->
+                                                        Каждому разработчику сайта приходилось иметь дело с локализацией сайта, 
+                                                        чтобы каждый пользователь, когда заходит на страницу, сайт автоматически перенаправлял 
+                                                        его на ту версию языка, на котором привык общаться клиент. Есть много способов это 
+                                                        сделать:
+                                                        <ul>
+                                                                <li>можно сделать копию сайта в разных папках www.domen.com/ru и www.domen.com/en и т.д.;</li>
+                                                                <li>можно использовать api переводчика от Google Translate;</li>
+                                                                <li>можно использовать код на JavaScript и определять страну и язык самостоятельно при помощи свойства window.navigator.languages на JavaScript;</li>
+                                                                <li>наконец, можно использовать готовое и быстрое решение - <a href="http://www.websofter.ru/products/langzilla" target="_blank">LangZilla</a>.</li>
+                                                        </ul>
+                                                        <h3 style="text-align: center;">Описание</h3>
+                                                        <a href="http://www.websofter.ru/products/langzilla" target="_blank">LangZilla</a> - это бесплатный JavaScript автопереводчик сайтов, с возможностью расширять языковую базу при помощи языковых файлов.
+
+                                                        Что может <a href="http://www.websofter.ru/products/langzilla" target="_blank">LangZilla</a>? Вот ее функции:
+                                                        <ul>
+                                                                <li>автоматически определять страну клиента и дает ему его перевод;</li>
+                                                                <li>возможность определять любой язык при помощи json - файлов;</li>
+                                                                <li>возможность переводить внутри тегов HTML;</li>
+                                                                <li>возможность переводить слова в атрибутах тегов;</li>
+                                                                <li>возможность перевести часть текста внутри до содержимого в теге;</li>
+                                                                <li>возможность перевести текст после содержимого в теге;</li>
+                                                                <li>возможность запустить пользовательский кода, определив функцию обратного вызова;</li>
+                                                                <li>возможность использовать в переводе теги HTML;</li>
+                                                                <li>возможность определять собственные пути к картам перевода и определять для них иконки.</li>
+                                                        </ul>
+                                                        <h3 style="text-align: center;">Использование</h3>
+                                                        Чтобы быстро использовать плагин, необходимо скачать архив, в папке src будут 
+                                                        все исходные файлы плагина:
+                                                        <ul>
+                                                                <li>папка loc содержит все файлы перевода, которые вы захотите добавить. Причем, имя файла должно соответствовать коду языка;</li>
+                                                                <li>папка images содержит ресурсы плагина, такие как иконки языков и т.д.;</li>
+                                                                <li>файл langzilla.js - основной файл плагина, его необходимо подключить к нашей странице, где требуется перевод.</li>
+                                                        </ul>
+                                                        Итак, давайте поподробнее. После разархивирования в корневую папку сайта 
+                                                        подключаем  файлы jQuery и langzilla.js к той странице, на которой требуется перевод
+
+                                                        <br/>
+<pre><code>
+&lt;script src="js/jquery-2.1.4.min.js"&gt;&lt;/script&gt;
+&lt;script src="src/langzilla.js"&gt;&lt;/script&gt;
+</code></pre>
+                                                        <br/>
+                                                        Далее нам необходимо создать карты языка в формате .json и переместить их в папке loc, откуда их будет читать наш плагин перевода. Название карты языка должно соответствовать кодовому определению языка в формате, который определен для свойства window.navigator.languages, данный формат языков для браузеров опеределен по стандарту <a class="external external-icon" title="http://tools.ietf.org/html/rfc4646" href="http://tools.ietf.org/html/rfc4646">RFC 4646</a>. <span id="result_box" lang="ru"><span class="hps">Пример</span>ы <span class="hps">валидных</span> языковых кодов <span class="hps">включают </span><span class="atn hps">"</span>en", <span class="atn hps">"</span>EN-US", <span class="hps">"FR</span><span class="atn">", "</span>es-ES", <span class="atn">"</span>ru-RU" <span class="hps">и т.д. Некоторые можно посмотреть <a href="http://www.w3schools.com/tags/ref_language_codes.asp" target="_blank">здесь</a>. После того, как языковую карту создали и дали ему валидное имя, соответствующее кодовому названию языка, нам необходимо написать код запуска с регистрированными языковыми картами. Простейший код будет выглядеть вот так:</span></span>
+                                                        <br/>
+<pre><code>
+    jQuery(function(){
+        $("body").createLang({//определяем тег, в которую добавятся кнокпки
+            locals:{
+                "en-US":"../src/images/en.png",//подключаем и регистрируем для языка иконку кнопки
+                "ru-RU":"../src/images/ru.png"//подключаем и регистрируем для языка иконку кнопки
+            },
+            locPath: "src/loc/"//указываем путь к папке языковых карт
+        });
+    });
+</code>
+</pre>
+                                                        <br/>
+                                                        Теперь нам необходимо заполнить языковые карты. Допустим мы создали
+                                                        языковые карты ru-RU.json для русского языка и en-US.json - для 
+                                                        английского языка. Запись в языковых картах поизводиться в формате 
+                                                        JSON, ниже представлены примеры заполнения для русского
+                                                        <br/>
+<pre><code>
+{
+    "lzTitle": "LangZilla|Русский",
+    "lzMenuHome": "Главная",
+    "lzMenuBlog": "Блог",
+    "lzMenuGallery": "Галерея",
+    "lzMenuAbout": "О нас",
+    "lzMenuContact": "Контакты",
+    "lzMenuItem1": "Проектируем для WEB и дизайн",
+    "lzMenuItem2": "Проектируем для гаджетов",
+    "lzMenuItem3": "Проектируем для ПК",
+    "lzMenuItem4": "Проектируем для микроэлектроники",
+    "lzTextAboutAppend": "Вы можете использовать и изменять наш плагин...[:]append",
+    "lzTextAboutPrepend": "Бесплатный плагин перевода от [:]prepend",
+    "lzImageEnRU": "images/langzilla-ru.png[:]attr=src",
+    "lzHeaderPopularPost": "Популярные посты",
+    "lzHeaderCategories": "Категории",
+    "lzHeadDef": "Заголовок текста",
+    "lzHeadReadMore": "Читать далее",
+    "lzHeadNext": "дальше"
+
+}
+</code>
+</pre>
+                                                        <br/>
+                                                        и для английского
+                                                        <br/>
+<pre><code>
+{
+    "lzTitle": "LangZilla|English",
+    "lzMenuHome": "Home",
+    "lzMenuBlog": "Blog",
+    "lzMenuGallery": "Gallery",
+    "lzMenuAbout": "About",
+    "lzMenuContact": "Contact",
+    "lzMenuItem1": "We develop for WEB and Design",
+    "lzMenuItem2": "We develop for Phones",
+    "lzMenuItem3": "We develop for PC",
+    "lzMenuItem4": "We develop for Microelectronic",
+    "lzTextAboutAppend": "You can use and modify the our plugin...[:]append",
+    "lzTextAboutPrepend": "Free translate plugin by [:]prepend",
+    "lzImageEnRU": "images/langzilla-en.png[:]attr=src",
+    "lzHeaderPopularPost": "Popular Post",
+    "lzHeaderCategories": "Categories",
+    "lzHeadDef": "Text Heading",
+    "lzHeadReadMore": "Read more",
+    "lzHeadNext": "next"
+}
+</code>
+</pre>
+                                                        <br/>
+                                                        Названия переменных "lzTitle", "lzMenuHome", "lzMenuBlog", ... 
+                                                        произвольные и они должны быть одинаковы во всех языковых картах, 
+                                                        в данном случае, и для ru-RU.json и en-EN.json иначе вы не получите перевод.
+
+                                                        Далее, нам необходимо заставить выполнить перевод по нажатии на кнопок, 
+                                                        которые автоматически появятся, по умолчанию, в верхнем правом углу 
+                                                        страницы, к которой подключен LangZilla - плагин
+                                                        <br/>
+                                                        <center>
+                                                            <img  src="http://blog.websofter.ru/wp-content/uploads/2015/07/langzilla-btn-img-279x300.png" alt="langzilla-btn-img" width="279" height="300" />
+                                                        </center>
+                                                        <br/>
+                                                        Для этого нужно создавать или добавлять классы к тегам, в которых есть
+                                                        содержимое, требующий перевода. Названия глассов соответствуют названиям 
+                                                        переменных в языковых картов, например для переменно "lzMenuHome" класс будет
+                                                        написан как class = "lzMenuHome" и т.д. Пример этого показан ниже
+                                                        <br/>
+<pre><code>
+    &lt;div class="menu"&gt;
+            &lt;ul&gt;
+                    &lt;li&gt;&lt;a class="lzMenuHome" href="index.html"&gt;&lt;!--Home--&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a class="lzMenuBlog" href="#"&gt;&lt;!--Blog--&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a class="lzMenuGallery" href="#"&gt;&lt;!--Gallery--&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a class="lzMenuAbout" href="#"&gt;&lt;!--About--&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a class="lzMenuContact" href="#"&gt;&lt;!--Contact--&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+    &lt;/div&gt;
+</code>
+</pre>
+                                                        <br/>
+                                                        Готовый результат можно посмотреть на <a href="http://www.websofter.ru/products/langzilla" target="_blank">странице </a>плагина.
+                                                        <br/>
+                                                        <h3 style="text-align: center;">Фильтры действий</h3>
+                                                        Фильтры действий - это дополнительное указание для плагина как обработать данный текст перевода внутри тега. Все фильтры действий записываются после текста перевода через разделитель [:]. На данный момент существует следующий список фильтров действий:
+                                                        <ul>
+                                                                <li>[:]prepend - добавляет текст перевода перед содержимым внутри тега;</li>
+                                                                <li>[:]append - добавляет текст перевода  после содержимого тега;</li>
+                                                                <li>[:]html - добавляет текст перевода внутрь тега, удаляя содержимое. Данный фильтр применяется по умолчанию, если не указаны выше описанные фильтры принудительно;</li>
+                                                                <li>[:]attr=attributeName - добавляет текст перевода в качестве значения атрибута.</li>
+                                                        </ul>
+                                                        Как вы заметили, данные фильтры идентичны с методами jQuery и выполняют похожие действия.
+                                                        <br/>
+                                                        <h3 style="text-align: center;">Дополнительные параметры LangZilla</h3>
+                                                        LangZilla имеет дополнительные параметры для гибкой настройки. Ниже представлен весь список этих параметров:
+                                                        <ul>
+                                                                <li>position - определяет поведение кнопок на странице и соответствует CSS значениям position. По умолчанию кнопки находятся на верхнем правом углу и этот параметр установлен как "absolute";</li>
+                                                                <li>top - расстояние до кнопок с верхней части страницы в пикселях. По умолчанию равен 0;</li>
+                                                                <li>right - расстояние до кнопок от правой стороны страницы. По умолчанию равен значению 80;</li>
+                                                                <li>locals - параметр для регистрации языковых карт и определения для них кнопок. При использовании данный параметр должен быть определен;</li>
+                                                                <li>locPath - путь к языковым картам относительно страницы, к которому подключен плагин. По умолчанию содержит значение "langzilla/loc/";</li>
+                                                                <li>callBack - функция обратного вызова. Если требуется использовать пользовательский код, который бы выполнялся при каждой смене языка, то можно смело ею пользоваться.</li>
+                                                        </ul>
+                                                        Это все, описание окончено. Удачного пользования!
+                                                        <br/>
+							<!-- *******************************************POST************************************ -->
+						</div>
+					</article>
+				</div>
+			</div>
+			<div id="sidebar" class="col-1-3">
+				<div class="wrap-col">
+					<div class="box">
+						<div class="heading"><h2 class="lzMenuAbout">About us</h2></div>
+						<div class="content">
+							<a href="http://www.websofter.ru" target="_blank"><img class="lzImageEnRU" src="images/langzilla-en.png" style="border:none;"/></a>
+							<p class="lzTextAboutPrepend lzTextAboutAppend"><a href="http://www.websofter.ru" target="_blank" style="color: #DA251D;">WebSofter</a>.</p>
+						</div>
+					</div>
+					<div class="box">
+						<div class="heading"><h2 class="lzHeaderCategories">Categories</h2></div>
+						<div class="content">
+							<ul>
+								<li><a class="lzMenuItem1" href="http://www.websofter.ru">We develop for WEB and Design</a></li>
+								<li><a class="lzMenuItem2" href="http://www.websofter.ru">We develop for Phones</a></li>
+								<li><a class="lzMenuItem3" href="http://www.websofter.ru">We develop for PC</a></li>
+                                                                <li><a class="lzMenuItem4" href="http://www.websofter.ru">We develop for Microelectronic</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="box">
+                                            <div class="heading"><h2 class="lzHeaderPopularPost">Popular Post</h2></div>
+						<div class="content">
+							<div class="post">
+								<img src="images/50x50.jpg"/>
+								<h4><a href="#">Lorem ipsum dolor sit amet</a></h4>
+								<p>November 11 ,2012</p>
+							</div>
+							<div class="post">
+								<img src="images/50x50.jpg"/>
+								<h4><a href="#">Lorem ipsum dolor sit amet</a></h4>
+								<p>November 11 ,2012</p>
+							</div>
+							<div class="post">
+								<img src="images/50x50.jpg"/>
+								<h4><a href="#">Lorem ipsum dolor sit amet</a></h4>
+								<p>November 11 ,2012</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--------------Footer--------------->
+<footer>
+	<div class="wrap-footer zerogrid">
+		<div class="row">
+			<div class="col-1-3">
+				<div class="wrap-col">
+					<div class="box">
+						<div class="heading"><h2 class="lzHeadDef">Text Heading</h2></div>
+						<div class="content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor. Sed accumsan libero quis mi commodo et suscipit enim lacinia. Morbi rutrum vulputate est sed faucibus. </p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-2-3">
+				<div class="wrap-col">
+					<div class="box">
+						<div class="heading"><h2 class="lzHeadDef">Text Heading</h2></div>
+						<div class="content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor. Sed accumsan libero quis mi commodo et suscipit enim lacinia. Morbi rutrum vulputate est sed faucibus. Nulla sed nisl mauris, id tristique tortor. Sed iaculis dapibus urna nec dictum. Proin non enim odio. Proin vitae turpis libero, eget feugiat enim. Sed fringilla facilisis convallis.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="copyright">
+		<p>Copyright © 2015 - <a href="http://www.websofter.ru" target="_blank">Project LangZilla</a> by websofter.ru</p>
+	</div>
+</footer>
+
+</body></html>

@@ -1,0 +1,22 @@
+{
+    "lzTitle": "LangZilla|Русский",
+    "lzMenuHome": "Главная",
+    "lzMenuBlog": "Блог",
+    "lzMenuAbout": "О нас",
+    "lzMenuDownload": "Загрузить",
+    "lzMenuOnGithub": "На GitHub",
+    "lzMenuContact": "Контакты",
+    "lzMenuItem1": "Проектируем для WEB и дизайн",
+    "lzMenuItem2": "Проектируем для гаджетов",
+    "lzMenuItem3": "Проектируем для ПК",
+    "lzMenuItem4": "Проектируем для микроэлектроники",
+    "lzTextAboutAppend": "Вы можете использовать и изменять наш плагин для личного и коммерческого использования. Вы должны соблюдать все сведения об авторских правах.[:]append",
+    "lzTextAboutPrepend": "Бесплатный плагин перевода от [:]prepend",
+    "lzImageEnRU": "images/langzilla-ru.png[:]attr=src",
+    "lzHeaderPopularPost": "Популярные посты",
+    "lzHeaderCategories": "Категории",
+    "lzHeadDef": "Заголовок текста",
+    "lzHeadReadMore": "Читать далее",
+    "lzHeadNext": "дальше"
+    
+}

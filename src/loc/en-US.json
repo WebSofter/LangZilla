@@ -1,0 +1,20 @@
+{
+    "lzTitle": "LangZilla|English",
+    "lzMenuHome": "Home",
+    "lzMenuBlog": "Blog",
+    "lzMenuAbout": "About",
+    "lzMenuDownload": "Download",
+    "lzMenuOnGithub": "On GitHub",
+    "lzMenuItem1": "We develop for WEB and Design",
+    "lzMenuItem2": "We develop for Phones",
+    "lzMenuItem3": "We develop for PC",
+    "lzMenuItem4": "We develop for Microelectronic",
+    "lzTextAboutAppend": "You can use and modify the our plugin for both personal and commercial use. You must keep all copyright information and credit links in the template and associated files.[:]append",
+    "lzTextAboutPrepend": "Free translate plugin by [:]prepend",
+    "lzImageEnRU": "images/langzilla-en.png[:]attr=src",
+    "lzHeaderPopularPost": "Popular Post",
+    "lzHeaderCategories": "Categories",
+    "lzHeadDef": "Text Heading",
+    "lzHeadReadMore": "Read more",
+    "lzHeadNext": "next"
+}
